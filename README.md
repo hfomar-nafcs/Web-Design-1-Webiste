@@ -1,4 +1,4 @@
-# Web-Design-1-Webiste
+# Web-Design-1-Website
 
 This Website is For Web Design 1 
 
