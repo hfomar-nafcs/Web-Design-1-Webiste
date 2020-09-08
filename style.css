@@ -13,9 +13,4 @@ font-family: system-ui;
 
 nafcs {
   position:absolute; top: 100; left: 100;
-  width: 50%;
-  height: 50%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
