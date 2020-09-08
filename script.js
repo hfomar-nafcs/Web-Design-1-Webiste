@@ -4,12 +4,6 @@
 // Copyright © 2013 Particleslider.com (http://particleslider.com
 
 // Terms of usage: http://particleslider.com/legal/license
-
-var init = function(){
-  var isMobile = navigator.userAgent &&
-    navigator.userAgent.toLowerCase().indexOf('mobile') >= 0;
-  var isSmall = window.innerWidth < 1000;
-  
   var ps = new ParticleSlider({
     ptlGap: isMobile || isSmall ? 3 : 0,
     ptlSize: isMobile || isSmall ? 3 : 1,
