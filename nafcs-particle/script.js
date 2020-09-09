@@ -13,8 +13,8 @@ var init = function(){
   var ps = new ParticleSlider({
     ptlGap: isMobile || isSmall ? 3 : 0,
     ptlSize: isMobile || isSmall ? 3 : 1,
-    width: 1e9,
-    height: 1e9
+    width: 1920,
+    height: 1080
   });
  (window.addEventListener
    ? window.addEventListener('click', function(){ps.init(true)}, false)
