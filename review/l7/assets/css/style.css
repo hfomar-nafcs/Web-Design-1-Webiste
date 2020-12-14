@@ -12,10 +12,21 @@ h1.main {
 
 /*Set Image Width to 50%*/
 img.unsplash-daily {
-	width: 50%
+	width: 20%;
+	border: 5px solid #555;
 }
 
 /*Set Hover Color to Green*/
 a:hover.google {
-	color: chartreuse
+	color: chartreuse;
 }
+
+/*Font Awesome Color Adjustments*/
+.fa-google {
+	color: #ffffff;
+}
+
+.fa-stop {
+	color: #000000;
+}
+
