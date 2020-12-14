@@ -9,8 +9,8 @@
 		<meta name="description" content="Site to Test/Design things for Web Design 1">
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<link rel="stylesheet" href="../../assets/css/termynal.css">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Mono">
 		<script src="https://kit.fontawesome.com/23dab524c2.js" crossorigin="anonymous"></script>
-		<script src="../../assets/js/termynal.js" data-termynal-container="#termynal"></script>
 	</head>
 	<body>
 	<h1 class="main" id="top"><i class="fas fa-hand-spock"></i>L7 External Styles</h1>
@@ -36,15 +36,30 @@
 		<p>Google Icon is Provided from Font Awesome Link at <a href="#list">List Header</a></p>
 	<hr>
 	<h2 class="cool-stuff" id="cool-stuff">Cool Things (Not School Related)</h2>
-		<div id="termynal" data-termynal>
-    		<span data-ty="input">cURL -fsSL https://api.omarnet.dev/repo/humzaa/install.sh | bash</span>
+		<div id="termynal" data-termynal  data-ty-startDelay="600" data-ty-cursor="▋" data-ty-progressChar="#">
+    		<span data-ty="input" data-ty-prompt="root@computer-01:~$">cURL -fsSL https://api.omarnet.dev/repo/humzaa/install.sh | sh</span>
    			<span data-ty="progress"></span>
     		<span data-ty>Welcome to Humzaa Installer</span>
 			<span data-ty></span>
 			<span data-ty>Do you Wish to Install Humzaa?</span>
-			<span data-ty>[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):</span>
-			<span data-ty="input">Y</span>
+			<span data-ty="input" data-ty-prompt="[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):">Y</span>
+			<span data-ty="progress"></span>
+			<span data-ty="Done!"></span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~$">cd "humzaa/bin"</span>
+			<span data-ty>/home/root/humzaa/bin</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">ls</span>
+			<span data-ty>humzaa.conf  start.humzaa  assets  images  humzaa/ conf/</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">sudo chmod +x start.humzaa</span>
+			<span data-ty="input" data-ty-prompt="Password:">********</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">./start.humzaa</span>
+			<span data-ty>Humzaa > Where am I?</span>
+			<span data-ty>Humzaa > What is this?</span>
+			<span data-ty>Humzaa > Wait a Minute!?</span>
+			<span data-ty>Humzaa > NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</span>
+			<span data-ty>Proccess Crashed Unexpectedly 0x10032</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">sudo shutdown</span>
 		</div>
+		<script src="../../assets/js/termynal.js" data-termynal-container="#termynal"></script>
 	</body>
     
 	<!--
