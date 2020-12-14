@@ -1,9 +1,21 @@
-/*L7 Style.CSS*/
+/*##########L7 Style.CSS##########*/
 
+/*Set font*/
 body {
 	font-family: system-ui;
 }
 
+/*Align Heading to Center*/
 h1.main {
 	text-align: center;
+}
+
+/*Set Image Width to 50%*/
+img.unsplash-daily {
+	width: 50%
+}
+
+/*Set Hover Color to Green*/
+a:hover.google {
+	color: chartreuse
 }
