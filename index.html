@@ -1,18 +1,67 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Web Design 1 Website</title>
+		<title>L7</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="author" content="Humzaa Omar">
 		<meta name="keywords" content="Humzaa Omar">
 		<meta name="description" content="Site to Test/Design things for Web Design 1">
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/termynal.css">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Mono">
+		<script src="https://kit.fontawesome.com/23dab524c2.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-	<h1 class="main">👋Welcome to my Web Design 1 Page!!</h1>
+	<h1 class="main" id="top"><i class="fas fa-hand-spock"></i>L7 External Styles</h1>
 	<hr>
-    </body>
+	<h2 class="List" id="list">Ordered List<a href="https://fontawesome.com/">(Font Awesome)</a></h2>
+		<ol class="fa-ul">
+  			<li><span class="fa-li"><i class="fas fa-check-square"></i></span>List Item 1</li>
+  			<li><span class="fa-li"><i class="fas fa-check-square"></i></span>List Item 2</li>
+  			<li><span class="fa-li"><i class="fas fa-check-square"></i></span>List Item 3</li>
+  			<li><span class="fa-li"><i class="fas fa-check-square"></i></span>List Item 4</li>
+		</ol>
+	<hr>
+	<h2 class="Images" id="images">Image</h2>	
+		<img src="https://source.unsplash.com/daily" alt="Unsplash Daily Photo" title="Unsplash Daily Photo" class="unsplash-daily">
+	<hr>
+	<h2 class="Links" id="links">Links</h2>
+		<a href="http://google.com" target="_blank" class="google">
+			<span class="fa-stack fa-lg fa-5x">
+  				<i class="fa fa-stop fa-stack-2x"></i>
+  				<i class="fa fa-google fa-stack-1x"></i>
+			</span>
+		</a>
+		<p>Google Icon is Provided from Font Awesome Link at <a href="#list">List Header</a></p>
+	<hr>
+	<h2 class="cool-stuff" id="cool-stuff">Cool Things (Not School Related)</h2>
+		<div id="termynal" data-termynal  data-ty-startDelay="600" data-ty-cursor="▋" data-ty-progressChar="#">
+    		<span data-ty="input" data-ty-prompt="root@computer-01:~$">cURL -fsSL https://api.omarnet.dev/repo/humzaa/install.sh | sh</span>
+   			<span data-ty="progress"></span>
+    		<span data-ty>Welcome to Humzaa Installer</span>
+			<span data-ty></span>
+			<span data-ty>Do you Wish to Install Humzaa?</span>
+			<span data-ty="input" data-ty-prompt="[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is 'N'):">Y</span>
+			<span data-ty="progress"></span>
+			<span data-ty="Done!"></span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~$">cd "humzaa/bin"</span>
+			<span data-ty>/home/root/humzaa/bin</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">ls</span>
+			<span data-ty>humzaa.conf  start.humzaa  assets  images  humzaa/ conf/</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">sudo chmod +x start.humzaa</span>
+			<span data-ty="input" data-ty-prompt="Password:">********</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">./start.humzaa</span>
+			<span data-ty>Humzaa &gt; Where am I?</span>
+			<span data-ty>Humzaa &gt; What is this?</span>
+			<span data-ty>Humzaa &gt; Wait a Minute!?</span>
+			<span data-ty>Humzaa &gt; NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO</span>
+			<span data-ty>Proccess Crashed Unexpectedly 0x10032</span>
+			<span data-ty="input" data-ty-prompt="root@computer-01:~/humzaa/bin$">sudo shutdown</span>
+		</div>
+		<script src="assets/js/termynal.js" data-termynal-container="#termynal"></script>
+	</body>
+    
 	<!--
  ___  ___  ___  ___  _____ ______   ________  ________  ________          ________  _____ ______   ________  ________     
 |\  \|\  \|\  \|\  \|\   _ \  _   \|\_____  \|\   __  \|\   __  \        |\   __  \|\   _ \  _   \|\   __  \|\   __  \    
